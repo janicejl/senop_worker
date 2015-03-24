@@ -4,7 +4,12 @@ Background Task
 
 
 --- Make sure rabbitmq is running:
-  ```rabbitmq-server```
+```
+rabbitmq-server
+```
 
---- If no errors: ```foreman start web```
+--- If no errors: 
+```
+foreman start web
+```
 --- else: run them separately.
