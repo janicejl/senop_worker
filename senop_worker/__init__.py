@@ -37,4 +37,5 @@ celery.conf.update(app.config)
 app.logger.info('Celery initialized.')
 
 import senop_worker.controller
+import senop_worker.tasks
 
